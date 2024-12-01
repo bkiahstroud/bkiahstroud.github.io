@@ -1,0 +1,77 @@
+baseURL: https://bkiahstroud.github.io/
+languageCode: en-us
+title: TinyTechTips
+theme: PaperMod
+enableEmoji: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weight: 10
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 20
+    - identifier: archive
+      name: Archive
+      url: /archive
+      weight: 30
+    # - identifier: about
+    #   name: About
+    #   url: /about
+    #   weight: 40
+
+params:
+  title: TinyTechTips
+  description: Programming blog primarily focused on sharing helpful coding snippets
+  keywords: [Programming, Web Development, DevOps, Tech Tips, Blog]
+  author: Kiah Stroud
+
+  profileMode:
+    enabled: true
+    title: Kiah Stroud
+    subtitle: A programming blog for short attention spans
+    imageUrl: /images/kiah.jpg
+    imageTitle: Kiah Stroud
+    imageWidth: 250
+    imageHeight: 250
+    buttons:
+      - name: Browse
+        url: /archive
+      - name: Tags
+        url: /tags
+
+  socialIcons:
+    - name: GitHub
+      url: https://github.com/bkiahstroud
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/bkiahstroud
+    - name: RSS
+      url: /index.xml
+
+  ShowCodeCopyButtons: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowToc: false
+  # ShowPostNavLinks: true
+  ShowRssButtonInSectionTermList: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    keys: [title, permalink, summary, content]
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    noClasses: false
+pygmentsUseClasses: true
