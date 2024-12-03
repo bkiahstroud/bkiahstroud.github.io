@@ -22,7 +22,7 @@ menu:
       weight: 20
     - identifier: archive
       name: Archive
-      url: /archive
+      url: /archives
       weight: 30
     # - identifier: about
     #   name: About
@@ -45,7 +45,7 @@ params:
     imageHeight: 250
     buttons:
       - name: Browse
-        url: /archive
+        url: /archives
       - name: Tags
         url: /tags
 
