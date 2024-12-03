@@ -39,7 +39,7 @@ params:
     enabled: true
     title: Kiah Stroud
     subtitle: A programming blog for short attention spans
-    imageUrl: /images/kiah.jpg
+    imageUrl: /images/kiah.webp
     imageTitle: Kiah Stroud
     imageWidth: 250
     imageHeight: 250
