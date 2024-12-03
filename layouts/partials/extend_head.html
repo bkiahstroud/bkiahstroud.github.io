@@ -1,0 +1,3 @@
+{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+<script defer src="https://cloud.umami.is/script.js" data-website-id="fb5526cc-7623-49ee-89ad-d0b7f49205e6"></script>
+{{- end -}}
