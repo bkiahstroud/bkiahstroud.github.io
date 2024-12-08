@@ -40,7 +40,7 @@ params:
     Content: My name is Kiah. Welcome to my programming blog
 
   profileMode:
-    enabled: true
+    enabled: false
     title: Kiah Stroud
     subtitle: "This is my programming blog where I share blazingly fast programming tips :zap:"
     imageUrl: https://raw.githubusercontent.com/bkiahstroud/bkiahstroud.github.io/refs/heads/main/assets/images/kiah.jpg
