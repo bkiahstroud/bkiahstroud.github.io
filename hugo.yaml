@@ -35,11 +35,15 @@ params:
   keywords: [Programming, Web Development, DevOps, Tech Tips, Blog]
   author: Kiah Stroud
 
+  homeInfoParams:
+    Title: "Blazingly fast programming tips :zap:"
+    Content: My name is Kiah. Welcome to my programming blog
+
   profileMode:
     enabled: true
     title: Kiah Stroud
-    subtitle: A programming blog for short attention spans
-    imageUrl: /images/kiah.jpg
+    subtitle: "This is my programming blog where I share blazingly fast programming tips :zap:"
+    imageUrl: https://raw.githubusercontent.com/bkiahstroud/bkiahstroud.github.io/refs/heads/main/assets/images/kiah.jpg
     imageTitle: Kiah Stroud
     imageWidth: 250
     imageHeight: 250
@@ -54,6 +58,8 @@ params:
       url: https://github.com/bkiahstroud
     - name: LinkedIn
       url: https://www.linkedin.com/in/bkiahstroud
+    - name: Bluesky
+      url: https://bsky.app/profile/kiah.dev
     - name: RSS
       url: /index.xml
 

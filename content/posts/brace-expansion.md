@@ -1,6 +1,7 @@
 ---
 title: 'Brace Expansion'
 tags: [core utils, bash]
+summary: Access multiple files and/or directories at once with a simple syntax
 date: '2024-12-01'
 draft: false
 ---
