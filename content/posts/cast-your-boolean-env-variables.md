@@ -44,9 +44,9 @@ my path forward and checked the value of the variable in the `.env` file:
 IMPORT_SKIP_EXISTING=true
 ```
 
-The path forward was simple: change the ENV variable's value to `false` to allow for records' files to be brought in when reimporting them.
+The next step was simple: change the ENV variable's value to `false` to allow for each record's files to be brought in when reimporting them.
 
-Except when I made the change and started reimporting, none of the records were getting any files.
+Except... when I made the change and started reimporting, none of the records were getting any files.
 
 > What did I miss?
 
@@ -54,7 +54,7 @@ I was digging through the code for several minutes before I remembered:
 
 > Oh yeah, ENV variable values are strings
 
-Stripping away the ENV fetching syntax, what I *thought* I was doing was:
+If we strip away the ENV fetching syntax, this is what I *thought* I was doing:
 
 ```ruby
 if false # falsy
