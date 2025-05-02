@@ -12,7 +12,7 @@ If you interact with Bash on a regular basis, chances are you're familiar with [
 find . -type f -name "*.md"
 ```
 
-{{% comment %}} TODO: turn this into a shortcode {{% /comment %}}
+<!-- TODO: turn this into a shortcode -->
 {{< rawhtml >}}<sup><em>Find all files in the current directory that end in ".md"</em></sup>{{< /rawhtml >}}
 
 The `*.md` pattern will expand all the filenames that match:
@@ -61,7 +61,7 @@ rsync -aP /mnt/uuid/{config.json,assets/,plugins/,data/} /the/target/path/
 ```
 
 The `assets/` dir in particular was many gigabytes in size and was going to take awhile to transfer. I wanted to fire and forget, not constantly be checking back on its progress to start copying the next directory. To that end, if I had tried doing this in a
-{{< rawhtml >}}<span style="cursor:help;text-decoration:underline var(--content) dashed" title="You'll understand the sarcastic quotes in a moment">"one-liner"</span>{{< /rawhtml >}}{{% comment %}} TODO: turn this into a shortcode {{% /comment %}}
+{{< rawhtml >}}<span style="cursor:help;text-decoration:underline var(--content) dashed" title="You'll understand the sarcastic quotes in a moment">"one-liner"</span>{{< /rawhtml >}}<!-- TODO: turn this into a shortcode -->
 before knowing about brace expansion, I probably would have written something akin to:
 
 ```bash
